@@ -2,10 +2,10 @@ import { Link, useLocation } from 'react-router-dom';
 
 const MENU_ITEMS = [
   { path: '/', label: 'Ana Sayfa', icon: '🏠' },
+  { path: '/coins', label: 'Coin Listesi', icon: '📈' },
   { path: '/wallet', label: 'Cüzdan', icon: '👛' },
   { path: '/watchlist', label: 'Favorilerim', icon: '⭐' },
   { path: '/youtube-lessons', label: 'YouTube İçerikleri', icon: '🎥' },
-  { path: '/code-examples', label: 'Kod Örnekleri', icon: '💻' },
   { path: '/articles', label: 'Makaleler', icon: '📚' },
   { path: '/about', label: 'Hakkımızda', icon: 'ℹ️' },
 ];

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const YouTubeContext = createContext(null);
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useYouTube = () => {
   const context = useContext(YouTubeContext);
   if (!context) {

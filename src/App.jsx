@@ -17,6 +17,7 @@ import ArticleDetail from './pages/ArticleDetail';
 import EditArticle from './pages/EditArticle';
 import NewVideo from './pages/NewVideo';
 import { YouTubeProvider } from './context/YouTubeContext';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
               <Router>
                 <Layout>
                   <Routes>
-                    <Route path="/" element={<CoinList />} />
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/coins" element={<CoinList />} />
                     <Route path="/wallet" element={<WalletPage />} />
                     <Route path="/watchlist" element={<Watchlist />} />
                     <Route path="/youtube-lessons" element={<YouTubeLessons />} />
